@@ -32,7 +32,6 @@ touch Dockerfile
 
 Step 4 : 
 Open the "Dockerfile" file in vs code editor or text editor you prefer and addd the following lines 
-
 <br>
 Commands : 
 <br>
@@ -43,7 +42,6 @@ COPY index.html /usr/share/nginx/index.html
 
 Step 5 : 
 Start docker and Build docker image from docker file 
-
 <br>
 Commands : 
 <br>
@@ -57,7 +55,7 @@ docker build -t myapp .
 Step 6 : 
 Run docker container from the image 
 <br>
-docker run -p 80:80 myapp 
+docker run -d -p 8080:80 myapp 
 <br>
 (this tells the docker to run myapp container and map port 8080 on your local machine to port 80 inside the container)
 <br>
