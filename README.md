@@ -5,7 +5,6 @@ Dockerfile > Docker Images > Docker Container > Access the App
 Step 1 :
 Create a new Directory 
 <br>
-
 Commands : (In linux)
 <br>
 mkdir myapp 
@@ -17,7 +16,6 @@ cd myapp
 
 Step 2 : 
 Create a file named "index.html"
-
 <br>
 Commands : (In linux)
 <br>
